@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import SachinSocket
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var sachin = SachinSocketData()
+        sachin.printLog()
     }
 
     override func didReceiveMemoryWarning() {
